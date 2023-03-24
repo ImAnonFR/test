@@ -1,11 +1,10 @@
 <?php
 
-function isValidRecipe() :
+function isValidRecipe() : string
 {
 
     return "oui";
 }
-
-$isSushisValid = isValidRecipe()
-echo $isShushisValid
+$isSushisValid = isValidRecipe();
+echo $isSushisValid;
 ?>
