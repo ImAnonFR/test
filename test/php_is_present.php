@@ -3,7 +3,7 @@
 function isValidRecipe() : string
 {
 
-    return "oui";
+    return "true";
 }
 $isSushisValid = isValidRecipe();
 echo $isSushisValid;
